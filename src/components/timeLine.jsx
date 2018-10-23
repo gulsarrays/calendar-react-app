@@ -5,150 +5,246 @@ const TimeLine = props => {
     <div className="timeline">
       <ul>
         <li>
-          <span>00:00</span>
+          <span>
+            <b>00:00</b>
+          </span>
         </li>
         <li>
-          <span>00:30</span>
+          <span>
+            <b>00:30</b>
+          </span>
         </li>
         <li>
-          <span>01:00</span>
+          <span>
+            <b>01:00</b>
+          </span>
         </li>
         <li>
-          <span>01:30</span>
+          <span>
+            <b>01:30</b>
+          </span>
         </li>
         <li>
-          <span>02:00</span>
+          <span>
+            <b>02:00</b>
+          </span>
         </li>
         <li>
-          <span>02:30</span>
+          <span>
+            <b>02:30</b>
+          </span>
         </li>
         <li>
-          <span>03:00</span>
+          <span>
+            <b>03:00</b>
+          </span>
         </li>
         <li>
-          <span>03:30</span>
+          <span>
+            <b>03:30</b>
+          </span>
         </li>
         <li>
-          <span>04:00</span>
+          <span>
+            <b>04:00</b>
+          </span>
         </li>
         <li>
-          <span>04:30</span>
+          <span>
+            <b>04:30</b>
+          </span>
         </li>
         <li>
-          <span>05:00</span>
+          <span>
+            <b>05:00</b>
+          </span>
         </li>
         <li>
-          <span>05:30</span>
+          <span>
+            <b>05:30</b>
+          </span>
         </li>
         <li>
-          <span>06:00</span>
+          <span>
+            <b>06:00</b>
+          </span>
         </li>
         <li>
-          <span>06:30</span>
+          <span>
+            <b>06:30</b>
+          </span>
         </li>
         <li>
-          <span>07:00</span>
+          <span>
+            <b>07:00</b>
+          </span>
         </li>
         <li>
-          <span>07:30</span>
+          <span>
+            <b>07:30</b>
+          </span>
         </li>
         <li>
-          <span>08:00</span>
+          <span>
+            <b>08:00</b>
+          </span>
         </li>
         <li>
-          <span>08:30</span>
-        </li>
-
-        <li>
-          <span>09:00</span>
-        </li>
-        <li>
-          <span>09:30</span>
-        </li>
-        <li>
-          <span>10:00</span>
-        </li>
-        <li>
-          <span>10:30</span>
-        </li>
-        <li>
-          <span>11:00</span>
-        </li>
-        <li>
-          <span>11:30</span>
-        </li>
-        <li>
-          <span>12:00</span>
-        </li>
-        <li>
-          <span>12:30</span>
-        </li>
-        <li>
-          <span>13:00</span>
-        </li>
-        <li>
-          <span>13:30</span>
-        </li>
-        <li>
-          <span>14:00</span>
-        </li>
-        <li>
-          <span>14:30</span>
-        </li>
-        <li>
-          <span>15:00</span>
-        </li>
-        <li>
-          <span>15:30</span>
-        </li>
-        <li>
-          <span>16:00</span>
-        </li>
-        <li>
-          <span>16:30</span>
-        </li>
-        <li>
-          <span>17:00</span>
-        </li>
-        <li>
-          <span>17:30</span>
-        </li>
-        <li>
-          <span>18:00</span>
+          <span>
+            <b>08:30</b>
+          </span>
         </li>
 
         <li>
-          <span>18:30</span>
+          <span>
+            <b>09:00</b>
+          </span>
         </li>
         <li>
-          <span>19:00</span>
+          <span>
+            <b>09:30</b>
+          </span>
         </li>
         <li>
-          <span>19:30</span>
+          <span>
+            <b>10:00</b>
+          </span>
         </li>
         <li>
-          <span>20:00</span>
+          <span>
+            <b>10:30</b>
+          </span>
         </li>
         <li>
-          <span>20:30</span>
+          <span>
+            <b>11:00</b>
+          </span>
         </li>
         <li>
-          <span>21:00</span>
+          <span>
+            <b>11:30</b>
+          </span>
         </li>
         <li>
-          <span>21:30</span>
+          <span>
+            <b>12:00</b>
+          </span>
         </li>
         <li>
-          <span>22:00</span>
+          <span>
+            <b>12:30</b>
+          </span>
         </li>
         <li>
-          <span>22:30</span>
+          <span>
+            <b>13:00</b>
+          </span>
         </li>
         <li>
-          <span>23:00</span>
+          <span>
+            <b>13:30</b>
+          </span>
         </li>
         <li>
-          <span>23:30</span>
+          <span>
+            <b>14:00</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>14:30</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>15:00</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>15:30</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>16:00</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>16:30</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>17:00</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>17:30</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>18:00</b>
+          </span>
+        </li>
+
+        <li>
+          <span>
+            <b>18:30</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>19:00</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>19:30</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>20:00</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>20:30</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>21:00</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>21:30</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>22:00</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>22:30</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>23:00</b>
+          </span>
+        </li>
+        <li>
+          <span>
+            <b>23:30</b>
+          </span>
         </li>
       </ul>
     </div>

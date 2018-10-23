@@ -90,7 +90,9 @@ const Events = ({ eventsData }) => {
   const Component = (
     <li className="events-group">
       <div className="top-info">
-        <span>{eventsData[0].day}</span>
+        <span>
+          <b>{eventsData[0].day}</b>
+        </span>
       </div>
       <ul>{componentArr}</ul>
     </li>

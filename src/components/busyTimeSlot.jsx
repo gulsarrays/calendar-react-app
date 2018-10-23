@@ -12,7 +12,8 @@ const BusyTimeSlot = ({ event, start, end, height }) => {
   }
 
   const styles = {
-    background: 'red',
+    background: '#d8d8d8',
+    border: '1px solid',
     width: '100%',
     textAlign: 'center',
     justifyContent: 'center',
@@ -25,7 +26,7 @@ const BusyTimeSlot = ({ event, start, end, height }) => {
 
   return (
     <li style={styles} className="align-middle">
-      {height} - {event} - {start} - {end}
+      {event} <br /> {start} - {end}
     </li>
   );
 };

@@ -1,21 +1,22 @@
 import React from 'react';
 import TimeLine from './timeLine';
 import Events from './events';
-import calendarEvents from '../fetchCalendarData';
+import calendarEvents_new from '../services/reformatCalendarData';
 
 const EventCalendar = props => {
-  const mondayEvents = calendarEvents[0];
-  const tuesdayEvents = calendarEvents[1];
-  const wednesdayEvents = calendarEvents[2];
-  const thursdayEvents = calendarEvents[3];
-  const fridayEvents = calendarEvents[4];
-  const saturdayEvents = calendarEvents[5];
-  const sundayEvents = calendarEvents[6];
-
-  console.log(sundayEvents);
+  const mondayEvents = calendarEvents_new.monday;
+  const tuesdayEvents = calendarEvents_new.tuesday;
+  const wednesdayEvents = calendarEvents_new.wednesday;
+  const thursdayEvents = calendarEvents_new.thursday;
+  const fridayEvents = calendarEvents_new.friday;
+  const saturdayEvents = calendarEvents_new.saturday;
+  const sundayEvents = calendarEvents_new.sunday;
 
   return (
     <React.Fragment>
+      {/* <div style={{ align: 'center' }}>
+        <h4> Event Calender</h4>
+      </div> */}
       <div className="cd-schedule loading">
         <TimeLine />
 

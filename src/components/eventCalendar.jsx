@@ -14,9 +14,9 @@ const EventCalendar = props => {
 
   return (
     <React.Fragment>
-      {/* <div style={{ align: 'center' }}>
-        <h4> Event Calender</h4>
-      </div> */}
+      <div style={{ textAlign: 'center' }} className="cd-schedule loading">
+        <h2> Weekly Event Calender</h2>
+      </div>
       <div className="cd-schedule loading">
         <TimeLine />
 

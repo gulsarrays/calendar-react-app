@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
+  font-size: 13px !important;
   font-family: 'Source Sans Pro', sans-serif;
   color: #222222;
   background-color: white;
@@ -193,6 +193,46 @@ Main Components
     width: calc(100% - 60px);
     margin-left: 60px;
   }
+}
+
+.footer-class {
+  background-image: url('images/footer.png');
+  height: 100%;
+  padding: 32px 0px 4px 1px;
+  margin-left: 10px !important;
+  line-height: 24px;
+}
+
+.footer-class .footer-class-img img {
+  padding: 5px 5px;
+}
+
+.cd-footer {
+  width: 94%;
+  max-width: 1261px;
+  margin: 2em auto;
+}
+
+.header-class {
+  background-image: url('images/header.png');
+  height: 90px;
+  /* vertical-align: 'center';
+  text-align: 'center';
+  color: 'white'; */
+  font-size: 20px;
+  margin-top: 10px;
+}
+.header-logo {
+  height: 50px;
+}
+.logo {
+  height: 100%;
+  padding: 35px 0px 0px 0px;
+  margin-left: 40px !important;
+  line-height: 24px;
+  width: 94%;
+  max-width: 1261px;
+  margin: 2em auto;
 }
 
 /*  Customization End */

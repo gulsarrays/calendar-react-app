@@ -2,6 +2,8 @@ import React from 'react';
 import TimeLine from './timeLine';
 import Events from './events';
 import calendarEvents_new from '../services/reformatCalendarData';
+import Header from './header';
+import Footer from './footer';
 
 const EventCalendar = props => {
   const mondayEvents = calendarEvents_new.monday;
@@ -14,9 +16,7 @@ const EventCalendar = props => {
 
   return (
     <React.Fragment>
-      <div style={{ textAlign: 'center' }} className="cd-schedule loading">
-        <h2> Weekly Event Calender</h2>
-      </div>
+      <Header />
       <div className="cd-schedule loading">
         <TimeLine />
 
@@ -32,6 +32,7 @@ const EventCalendar = props => {
           </ul>
         </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

@@ -84,7 +84,7 @@ class Header extends Component {
             <GoogleLogout buttonText="Logout" onLogoutSuccess={this.logout} />
           ) : (
             <GoogleLogin
-              clientId="120719995264-ak61nj4tfbaigmp9gvtih8e7d8sc9dlf.apps.googleusercontent.com"
+              clientId="120719995264-aak61nj4tfbaigmp9gvtih8e7d8sc9dlf.apps.googleusercontent.com"
               buttonText="Login"
               onSuccess={this.responseGoogle}
               onFailure={this.responseGoogle}

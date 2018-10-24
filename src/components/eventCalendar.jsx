@@ -17,9 +17,12 @@ const EventCalendar = props => {
   return (
     <React.Fragment>
       <Header />
+      {/* <div>
+        
+      </div> */}
+
       <div className="cd-schedule loading">
         <TimeLine />
-
         <div className="events">
           <ul>
             <Events day="Monday" eventsData={mondayEvents} />

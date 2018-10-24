@@ -4,6 +4,7 @@ import Events from './events';
 import calendarEvents_new from '../services/reformatCalendarData';
 import Header from './header';
 import Footer from './footer';
+import DoubleButton from './glogin';
 
 const EventCalendar = props => {
   const mondayEvents = calendarEvents_new.monday;
@@ -17,9 +18,7 @@ const EventCalendar = props => {
   return (
     <React.Fragment>
       <Header />
-      {/* <div>
-        
-      </div> */}
+      <DoubleButton />
 
       <div className="cd-schedule loading">
         <TimeLine />
